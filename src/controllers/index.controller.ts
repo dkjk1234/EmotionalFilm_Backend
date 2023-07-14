@@ -19,11 +19,10 @@ export class IndexController {
 
   public chat = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      console.log(req.body)
       const body = req.body as ChatDto;
-      // const chat = await this.indexService.chat(body)
+      const chat = await this.indexService.chat(body)
 
-      ResponseWarpper(res, req.body)
+      ResponseWarpper(res, chat)
     } catch (error) {
       next(error);
     }

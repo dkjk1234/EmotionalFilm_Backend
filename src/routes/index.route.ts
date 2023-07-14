@@ -14,7 +14,6 @@ export class IndexRoute implements Routes {
 
     private initializeRoutes() {
         this.router.get('/', this.index.index);
-        this.router.post('/chat', this.index.chat)
-        // ValidationMiddleware(ChatDto)
+        this.router.post('/chat', ValidationMiddleware(ChatDto), this.index.chat)
     }
 }
