@@ -23,7 +23,7 @@ export class IndexService {
   public async chat(body: ChatDto): Promise<string> {
     try {
       const chatCompletion = await this.openai.createChatCompletion({
-        model: body.model || "gpt-3.5-turbo",
+        model: body.model || "gpt-3.5-turbo-16k",
         messages: body.messages,
         temperature: body.temperature || 1,
         max_tokens: body.max_tokens || 150,
