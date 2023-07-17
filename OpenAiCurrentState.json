@@ -1,0 +1,10 @@
+{
+    "gameInformation":
+    {"TotalNormalMonsters":4,"NumberOfNormalMonstersRemaining":3,"Monster1Location":{"x":459.16650390625,"y":191.51589965820313,"z":0.0},
+    "Monster2Location":{"x":459.16650390625,"y":191.51589965820313,"z":0.0},
+    "Monster3Location":{"x":459.16650390625,"y":191.51589965820313,"z":0.0},
+    "BossLocation":{"x":0.0,"y":-1.5700000524520875,"z":2.4212104321463813e-8},
+    "DistanceBetweenMainCharacterAndBoss":16.042905807495118,"CurrentgBossHealth":"1%","Clear":false},
+    "playerStatus":{"PaintAmount":"100%","Health":"83.84005","CurrentMainCharacterLocation":{"x":-1.190000057220459,"y":0.11245596408843994,"z":15.90999984741211},
+    "CurrentMainCharacterWeapon":"Spray","CurrentStateOfMainCharacter":""},
+    "TX500Status":{"Location":{"x":-1.4512672424316407,"y":2.837291955947876,"z":13.010000228881836},"DistanceFromPlayer":3.9878551959991457,"TX500Mode":0}}
